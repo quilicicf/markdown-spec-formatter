@@ -1,0 +1,20 @@
+{
+  "name": "markdown-spec-formatter",
+  "main": "./lib/markdown-spec-formatter",
+  "version": "1.0.0",
+  "description": "A markdown formatter based on [@quilicicf/markdown-formatter](https://github.com/quilicicf/markdown-formatter)",
+  "keywords": [
+    "markdown",
+    "formatter"
+  ],
+  "activationCommands": {
+    "atom-workspace": "markdown-spec-formatter:toggle"
+  },
+  "repository": "https://github.com/atom/markdown-spec-formatter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

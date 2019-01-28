@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle markdown-spec-formatter",
+        "command": "markdown-spec-formatter:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "markdown-spec-formatter",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "markdown-spec-formatter:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
