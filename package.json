@@ -2,15 +2,18 @@
   "name": "markdown-spec-formatter",
   "main": "./lib/markdown-spec-formatter",
   "version": "1.0.0",
-  "description": "A markdown formatter based on [@quilicicf/markdown-formatter](https://github.com/quilicicf/markdown-formatter)",
+  "description": "A markdown formatter based on npm module: @quilicicf/markdown-formatter",
   "keywords": [
     "markdown",
     "formatter"
   ],
   "repository": "https://github.com/atom/markdown-spec-formatter",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "lint": "eslint './**/*.js'"
   },
   "dependencies": {
     "@quilicicf/markdown-formatter": "1.0.0"
