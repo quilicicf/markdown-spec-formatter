@@ -1,0 +1,4 @@
+extends: '@talend/eslint-config/api-packaging.yaml'
+globals:
+  atom: false
+root: true

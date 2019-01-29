@@ -7,14 +7,22 @@
     "markdown",
     "formatter"
   ],
-  "activationCommands": {
-    "atom-workspace": "markdown-spec-formatter:toggle"
-  },
   "repository": "https://github.com/atom/markdown-spec-formatter",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "@quilicicf/markdown-formatter": "1.0.0"
+  },
+  "devDependencies": {
+    "@talend/eslint-config": "2.0.1",
+    "eslint": "5.12.1",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-atom": "0.1.3",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jasmine": "2.10.1",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-react": "7.12.3"
   }
 }
