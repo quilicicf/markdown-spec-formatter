@@ -1,6 +1,6 @@
 # markdown-spec-formatter package
 
-> A markdown formatter based on [@quilicicf/markdown-formatter](https://github.com/quilicicf/markdown-formatter)
+> A markdown formatter for [Atom](https://atom.io) based on [@quilicicf/markdown-formatter](https://github.com/quilicicf/markdown-formatter)
 
 ## More info
 

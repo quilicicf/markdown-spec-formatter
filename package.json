@@ -2,7 +2,7 @@
   "name": "markdown-spec-formatter",
   "main": "./lib/markdown-spec-formatter",
   "version": "1.0.0",
-  "description": "A markdown formatter based on npm module: @quilicicf/markdown-formatter",
+  "description": "A markdown formatter for Atom based on npm module: @quilicicf/markdown-formatter",
   "keywords": [
     "markdown",
     "formatter"
