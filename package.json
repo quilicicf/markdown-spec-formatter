@@ -1,16 +1,13 @@
 {
   "name": "markdown-spec-formatter",
   "main": "./lib/markdown-spec-formatter",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A markdown formatter for Atom based on npm module: @quilicicf/markdown-formatter",
   "keywords": [
     "markdown",
     "formatter"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/quilicicf/markdown-spec-formatter.git"
-  },
+  "repository": "https://github.com/quilicicf/markdown-spec-formatter.git",
   "bugs": {
     "url": "https://github.com/quilicicf/markdown-spec-formatter/issues"
   },
