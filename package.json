@@ -7,7 +7,15 @@
     "markdown",
     "formatter"
   ],
-  "repository": "https://github.com/atom/markdown-spec-formatter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quilicicf/markdown-spec-formatter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quilicicf/markdown-spec-formatter/issues"
+  },
+  "homepage": "https://github.com/quilicicf/markdown-spec-formatter#readme",
+  "author": "quilicicf <quilicicf@gmail.com> (https://github.com/quilicicf)",
   "license": "Apache-2.0",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
