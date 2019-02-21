@@ -21,7 +21,7 @@
     "lint": "eslint './**/*.js'"
   },
   "dependencies": {
-    "@quilicicf/markdown-formatter": "1.0.0"
+    "@quilicicf/markdown-formatter": "2.0.1"
   },
   "devDependencies": {
     "@talend/eslint-config": "2.0.1",
