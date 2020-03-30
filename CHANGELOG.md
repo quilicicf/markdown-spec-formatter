@@ -1,3 +1,5 @@
+* __1.2.1:__
+  * :lock: Upgrade libs
 * __1.2.0:__ 
   * Better cursor positioning, reloaded: Atom can do even better! (removed cursor positioning, leaving it to Atom)
 * __1.1.0:__ 
