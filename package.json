@@ -18,10 +18,13 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "scripts": {
-    "lint": "eslint './**/*.js'"
+    "lint": "eslint './**/*.js'",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "@quilicicf/markdown-formatter": "2.0.2"
+    "@quilicicf/markdown-formatter": "2.0.2",
+    "snyk": "^1.338.0"
   },
   "devDependencies": {
     "@talend/eslint-config": "2.1.0",
@@ -32,5 +35,6 @@
     "eslint-plugin-jasmine": "4.1.0",
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.19.0"
-  }
+  },
+  "snyk": true
 }
