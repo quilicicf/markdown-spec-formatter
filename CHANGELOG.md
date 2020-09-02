@@ -1,3 +1,8 @@
+# Changelog
+
+* __1.3.0:__
+  * :new: Add support for watermark, new setting added
+  * :lock: Upgrade libs
 * __1.2.1:__
   * :lock: Upgrade libs
 * __1.2.0:__ 
