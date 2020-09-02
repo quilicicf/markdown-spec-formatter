@@ -23,18 +23,18 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "@quilicicf/markdown-formatter": "2.0.2",
-    "snyk": "^1.338.0"
+    "@quilicicf/markdown-formatter": "3.0.1",
+    "snyk": "^1.388.0"
   },
   "devDependencies": {
     "@talend/eslint-config": "2.1.0",
-    "eslint": "6.8.0",
-    "eslint-config-airbnb": "18.1.0",
+    "eslint": "7.8.1",
+    "eslint-config-airbnb": "18.2.0",
     "eslint-plugin-atom": "0.1.4",
-    "eslint-plugin-import": "2.20.2",
-    "eslint-plugin-jasmine": "4.1.0",
-    "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-react": "7.19.0"
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jasmine": "4.1.1",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-react": "7.20.6"
   },
   "snyk": true
 }
