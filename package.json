@@ -23,12 +23,12 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "@quilicicf/markdown-formatter": "3.0.4",
-    "snyk": "^1.621.0"
+    "@quilicicf/markdown-formatter": "4.0.0",
+    "snyk": "^1.671.0"
   },
   "devDependencies": {
     "@talend/eslint-config": "3.0.0",
-    "eslint": "7.27.0",
+    "eslint": "7.31.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-plugin-atom": "0.1.4",
     "eslint-plugin-import": "2.23.4",
