@@ -1,5 +1,7 @@
 # Changelog
 
+* __1.3.5:__
+  * :construction: Upgrade markdown-formatter (forgotten in 1.3.4)
 * __1.3.4:__
   * :lock: Upgrade libs
 * __1.3.3:__
