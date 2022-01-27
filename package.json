@@ -1,6 +1,6 @@
 {
   "name": "markdown-spec-formatter",
-  "main": "./lib/markdown-spec-formatter.js",
+  "main": "./dist/formatFromString.js",
   "version": "1.3.5",
   "description": "A markdown formatter for Atom based on npm module: @quilicicf/markdown-formatter",
   "keywords": [
@@ -18,7 +18,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "scripts": {
-    "upgrade-markdown-formatter": "parcel build --no-cache --no-minify --no-autoinstall --no-content-hash --target electron --experimental-scope-hoisting --bundle-node-modules node_modules/@quilicicf/markdown-formatter/lib/formatFromString.js",
+    "upgrade-markdown-formatter": "parcel build --no-cache --no-autoinstall --no-content-hash node_modules/@quilicicf/markdown-formatter/lib/formatFromString.js",
     "lint": "eslint './**/*.js'",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
@@ -38,5 +38,11 @@
     "eslint-plugin-react": "7.28.0",
     "parcel": "2.2.1"
   },
-  "snyk": true
+  "snyk": true,
+  "targets": {
+    "main": {
+      "context": "electron-main",
+      "includeNodeModules": true
+    }
+  }
 }
