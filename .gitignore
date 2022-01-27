@@ -1,5 +1,4 @@
-# Parcel cache
-/.cache
+/.parcel-cache
 
 # Logs
 logs
