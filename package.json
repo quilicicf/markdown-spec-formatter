@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@quilicicf/markdown-formatter": "4.0.4",
-    "snyk": "^1.839.0"
+    "snyk": "^1.996.0"
   },
   "devDependencies": {
     "@talend/eslint-config": "4.0.2",
