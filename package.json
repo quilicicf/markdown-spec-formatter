@@ -20,23 +20,23 @@
   "scripts": {
     "upgrade-markdown-formatter": "parcel build --no-cache --no-autoinstall --no-content-hash node_modules/@quilicicf/markdown-formatter/lib/formatFromString.js",
     "lint": "eslint './**/*.js'",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "@quilicicf/markdown-formatter": "4.0.4",
-    "snyk": "^1.996.0"
+    "@quilicicf/markdown-formatter": "4.0.7"
   },
   "devDependencies": {
+    "@snyk/protect": "^1.1143.0",
     "@talend/eslint-config": "4.0.2",
-    "eslint": "8.7.0",
+    "eslint": "8.38.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-plugin-atom": "0.1.4",
-    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jasmine": "4.1.3",
-    "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-react": "7.28.0",
-    "parcel": "2.2.1"
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "parcel": "2.8.3"
   },
   "snyk": true,
   "targets": {
