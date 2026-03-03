@@ -2,12 +2,9 @@
 
 > A markdown formatter for [Atom](https://atom.io) based on [@quilicicf/markdown-formatter](https://github.com/quilicicf/markdown-formatter)
 
-<!-- TOC START min:2 max:4 -->
+## 🚨 Archive notice
 
-* [Install](#install)
-* [More info](#more-info)
-
-<!-- TOC END -->
+This repository was archived due to Atom being dead.
 
 ## Install
 
